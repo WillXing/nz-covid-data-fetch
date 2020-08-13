@@ -1,0 +1,21 @@
+{
+  "name": "data-fetch",
+  "version": "1.0.0",
+  "description": "Fetch data from health nz",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "jest": "^26.4.0",
+    "moment": "^2.27.0"
+  }
+}
